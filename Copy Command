@@ -1,0 +1,60 @@
+--Copying the data into snowfalke(DataWarehouse) form S3 Bucket(Data Lake).
+
+truncate table pincodes;
+COPY INTO pincodes
+FROM s3://namastesqlsai/orders/20241220/pincodes.csv
+CREDENTIALS = (aws_key_id='AKIAWN26JXG4RZT2WQP3'
+aws_secret_key='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')
+FILE_FORMAT = (TYPE = 'CSV' SKIP_HEADER = 1);
+
+truncate table cities;
+COPY INTO cities
+FROM s3://namastesqlsai/orders/20241220/cities.csv
+CREDENTIALS = (aws_key_id='AKIAWN26JXG4RZT2WQP3'
+aws_secret_key='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')
+FILE_FORMAT = (TYPE = 'CSV' SKIP_HEADER = 1);
+
+truncate table customers;
+COPY INTO customers
+FROM s3://namastesqlsai/orders/20241220/customers.csv
+CREDENTIALS = (aws_key_id='AKIAWN26JXG4RZT2WQP3'
+aws_secret_key='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')
+FILE_FORMAT = (TYPE = 'CSV' SKIP_HEADER = 1);
+
+truncate table order_items;
+COPY INTO order_items
+FROM s3://namastesqlsai/orders/20241220/order_items.csv
+CREDENTIALS = (aws_key_id='AKIAWN26JXG4RZT2WQP3'
+aws_secret_key='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')
+FILE_FORMAT = (TYPE = 'CSV' SKIP_HEADER = 1);
+
+truncate table orders;
+COPY INTO orders
+FROM s3://namastesqlsai/orders/20241220/orders.csv
+CREDENTIALS = (aws_key_id='AKIAWN26JXG4RZT2WQP3'
+aws_secret_key='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')
+FILE_FORMAT = (TYPE = 'CSV' SKIP_HEADER = 1);
+
+truncate table products;
+COPY INTO products
+FROM s3://namastesqlsai/orders/20241220/products.csv
+CREDENTIALS = (aws_key_id='AKIAWN26JXG4RZT2WQP3'
+aws_secret_key='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')
+FILE_FORMAT = (TYPE = 'CSV' SKIP_HEADER = 1);
+
+truncate table shipments;
+COPY INTO shipments
+FROM s3://namastesqlsai/orders/20241220/shipments.csv
+CREDENTIALS = (aws_key_id='AKIAWN26JXG4RZT2WQP3'
+aws_secret_key='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')
+FILE_FORMAT = (TYPE = 'CSV' SKIP_HEADER = 1);
+
+truncate table subcategories;
+COPY INTO subcategories
+FROM s3://namastesqlsai/orders/20241220/subcategories.csv
+CREDENTIALS = (aws_key_id='AKIAWN26JXG4RZT2WQP3'
+aws_secret_key='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')
+FILE_FORMAT = (TYPE = 'CSV' SKIP_HEADER = 1);
+
+
+select * from customers
