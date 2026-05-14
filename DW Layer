@@ -1,0 +1,121 @@
+--SCD(Slowly Changing Dimensions) TYPE 1
+create or replace TABLE NAMASTEMART.dw.CUSTOMERS_DIM (
+    customer_key int identity(1,1),
+	CUSTOMER_ID NUMBER(38,0),
+	CUSTOMER_NAME VARCHAR(255),
+	USERNAME VARCHAR(255),
+	SEGMENT VARCHAR(255),
+	POSTAL_CODE VARCHAR(20),
+	CITY VARCHAR(255),
+	STATE VARCHAR(255),
+	REGION VARCHAR(255),
+	COUNTRY VARCHAR(255)
+);
+--first load
+insert into customers_dim(CUSTOMER_ID, CUSTOMER_NAME, USERNAME, SEGMENT, POSTAL_CODE, CITY, STATE, REGION, COUNTRY)
+select * from stg.stg_customers
+
+
+--incremental load
+
+--insert query
+insert into CUSTOMERS_DIM(CUSTOMER_ID, CUSTOMER_NAME, USERNAME, SEGMENT, POSTAL_CODE, CITY, STATE, REGION, COUNTRY)
+select * from stg.stg_customers
+where customer_id not in (select customer_id from CUSTOMERS_DIM)
+select * from customers_dim
+
+--update query 
+update CUSTOMERS_DIM
+set segment = stg_customers.segment , postal_code = stg_customers.postal_code
+from stg.stg_customers
+where stg_customers.customer_id=customers_dim.customer_id
+
+select * from customers_dim where customer_id=1
+
+
+--SCD TYPE 2
+create or replace TABLE NAMASTEMART.dw.PRODUCTS_DIM (
+    product_key int identity(1,1),
+	PRODUCT_ID NUMBER(38,0),
+	PRODUCT_NAME VARCHAR(255),
+	PRICE NUMBER(6,2),
+	SUB_CATEGORY VARCHAR(255),
+	CATEGORY VARCHAR(255),
+    effective_date date,
+    end_date date
+);
+--first_load
+insert into products_dim(PRODUCT_ID, PRODUCT_NAME, PRICE, SUB_CATEGORY, CATEGORY, EFFECTIVE_DATE, END_DATE)
+select *,'2024-12-21'::date as effective_date, '9999-12-31' ::date as end_date from stg.stg_products
+
+update PRODUCTS_DIM
+set effective_date='2024-12-16'
+select * from products_dim where product_id=1
+select * from stg.stg_products
+
+update products_dim
+set end_date = '2024-12-21'::date
+from stg.stg_products 
+where products_dim.product_id=stg_products.product_id and products_dim.end_date='9999-12-31';
+update products_dim
+set end_date = '9999-12-31'
+where product_key=4101
+
+create or replace TABLE NAMASTEMART.dw.fct_ORDERS (
+	ORDER_ID NUMBER(38,0),
+	ORDER_NUMBER VARCHAR(255),
+	ORDER_DATE DATE,
+	CUSTOMER_KEY NUMBER(38,0),
+	DISCOUNT NUMBER(6,2),
+	PRODUCT_KEY NUMBER(38,0),
+	QUANTITY NUMBER(38,0),
+	SALES NUMBER(8,2)
+);
+insert into fct_orders
+select * from stg.stg_orders
+
+select * from fct_orders
+
+insert into fct_ORDERS
+select o.ORDER_ID, o.ORDER_NUMBER, o.ORDER_DATE, cd.CUSTOMER_KEY, o.DISCOUNT, pd.PRODUCT_KEY, o.QUANTITY, o.SALES
+from stg.stg_orders o
+inner join dw.products_dim pd on pd.product_id=o.product_key and pd.end_date='9999-12-31'
+inner join dw.customers_dim cd on cd.customer_id=o.customer_key
+
+
+
+
+--- Analysis using Star Schema Data
+
+select p.category, sum(f.sales) as total_sales
+from fct_orders f
+inner join products_dim p on f.product_key = p.product_key
+group by p.CATEGORY
+
+--Creating calender_dim to store 50 years of data
+
+create or replace TABLE calender_dim
+(
+cal_date date,
+cal_year varchar(4),
+cal_month varchar(2)
+)
+
+insert into calender_dim
+with recursive cte as (
+select '2000-01-01'::date as cal_date
+union all
+select cal_date+1 as cal_date
+from cte
+where cal_date+1<='2050-12-31'
+)
+select cal_date, year(cal_date) as cal_year, month(cal_date) as cal_month from cte 
+
+select * from calender_dim
+
+
+select c.cal_year,sum(f.sales)
+from fct_orders f
+inner join calender_dim c on f.order_date = c.cal_date
+group by c.CAL_YEAR
+
