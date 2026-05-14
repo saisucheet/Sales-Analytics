@@ -1,0 +1,32 @@
+--Customer_staging
+--create table stg_customers as
+truncate table stg_customers;
+insert into stg_customers
+select cus.id as customer_id, cus.customer_name , cus.username,cus.segment ,p.postal_code, c.city,c.state,c.region,country
+from raw.pincodes p
+inner join raw.cities c on p.city_id=c.id
+inner join raw.customers cus on cus.pincode_id=p.id
+where p.last_updated_at = '2024-12-20' or c.last_updated_at= '2024-12-20' or cus.last_updated_at= '2024-12-20';
+
+select * from stg_customers
+--products_staging
+--create table stg_products as
+truncate table stg_products;
+insert into stg_products
+select p.id as product_id , p.product_name, p.price, s.sub_category, s.category 
+from raw.products p
+inner join raw.subcategories s on p.sub_category_id=s.id
+where p.last_updated_at = '2024-12-20' or s.last_updated_at='2024-12-20';
+
+
+select * from stg_products
+
+--Orders Staging
+--create table stg_orders as
+truncate table stg_orders;
+insert into stg_orders
+select o.order_id,o.order_number,o.order_date, o.customer_id,o.discount, oi.product_id,oi.quantity,oi.sales 
+from raw.orders o
+inner join raw.order_items oi on o.order_id=oi.order_id
+
+select * from stg_orders
