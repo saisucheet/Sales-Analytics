@@ -1,0 +1,532 @@
+﻿id,city,state,region,country,last_updated_at
+1,Aberdeen,South Dakota,Central,United States,12/13/2024
+2,Abilene,Texas,Central,United States,12/13/2024
+3,Akron,Ohio,East,United States,12/13/2024
+4,Albuquerque,New Mexico,West,United States,12/13/2024
+5,Alexandria,Virginia,South,United States,12/13/2024
+6,Allen,Texas,Central,United States,12/13/2024
+7,Allentown,Pennsylvania,East,United States,12/13/2024
+8,Altoona,Pennsylvania,East,United States,12/13/2024
+9,Amarillo,Texas,Central,United States,12/13/2024
+10,Anaheim,California,West,United States,12/13/2024
+11,Andover,Massachusetts,East,United States,12/13/2024
+12,Ann Arbor,Michigan,Central,United States,12/13/2024
+13,Antioch,California,West,United States,12/13/2024
+14,Apopka,Florida,South,United States,12/13/2024
+15,Apple Valley,California,West,United States,12/13/2024
+16,Appleton,Wisconsin,Central,United States,12/13/2024
+17,Arlington,Virginia,South,United States,12/13/2024
+18,Arlington Heights,Illinois,Central,United States,12/13/2024
+19,Arvada,Colorado,West,United States,12/13/2024
+20,Asheville,North Carolina,South,United States,12/13/2024
+21,Athens,Georgia,South,United States,12/13/2024
+22,Atlanta,Georgia,South,United States,12/13/2024
+23,Atlantic City,New Jersey,East,United States,12/13/2024
+24,Auburn,New York,East,United States,12/13/2024
+25,Aurora,Illinois,Central,United States,12/13/2024
+26,Austin,Texas,Central,United States,12/13/2024
+27,Avondale,Arizona,West,United States,12/13/2024
+28,Bakersfield,California,West,United States,12/13/2024
+29,Baltimore,Maryland,East,United States,12/13/2024
+30,Bangor,Maine,East,United States,12/13/2024
+31,Bartlett,Tennessee,South,United States,12/13/2024
+32,Bayonne,New Jersey,East,United States,12/13/2024
+33,Baytown,Texas,Central,United States,12/13/2024
+34,Beaumont,Texas,Central,United States,12/13/2024
+35,Bedford,Texas,Central,United States,12/13/2024
+36,Belleville,New Jersey,East,United States,12/13/2024
+37,Bellevue,Washington,West,United States,12/13/2024
+38,Bellingham,Washington,West,United States,12/13/2024
+39,Bethlehem,Pennsylvania,East,United States,12/13/2024
+40,Beverly,Massachusetts,East,United States,12/13/2024
+41,Billings,Montana,West,United States,12/13/2024
+42,Bloomington,Illinois,Central,United States,12/13/2024
+43,Boca Raton,Florida,South,United States,12/13/2024
+44,Boise,Idaho,West,United States,12/13/2024
+45,Bolingbrook,Illinois,Central,United States,12/13/2024
+46,Bossier City,Louisiana,South,United States,12/13/2024
+47,Bowling Green,Kentucky,South,United States,12/13/2024
+48,Boynton Beach,Florida,South,United States,12/13/2024
+49,Bozeman,Montana,West,United States,12/13/2024
+50,Brentwood,California,West,United States,12/13/2024
+51,Bridgeton,New Jersey,East,United States,12/13/2024
+52,Bristol,Tennessee,South,United States,12/13/2024
+53,Broken Arrow,Oklahoma,Central,United States,12/13/2024
+54,Broomfield,Colorado,West,United States,12/13/2024
+55,Brownsville,Texas,Central,United States,12/13/2024
+56,Bryan,Texas,Central,United States,12/13/2024
+57,Buffalo,New York,East,United States,12/13/2024
+58,Buffalo Grove,Illinois,Central,United States,12/13/2024
+59,Bullhead City,Arizona,West,United States,12/13/2024
+60,Burbank,California,West,United States,12/13/2024
+61,Burlington,Iowa,Central,United States,12/13/2024
+62,Caldwell,Idaho,West,United States,12/13/2024
+63,Camarillo,California,West,United States,12/13/2024
+64,Cambridge,Massachusetts,East,United States,12/13/2024
+65,Canton,Michigan,Central,United States,12/13/2024
+66,Carlsbad,New Mexico,West,United States,12/13/2024
+67,Carol Stream,Illinois,Central,United States,12/13/2024
+68,Carrollton,Texas,Central,United States,12/13/2024
+69,Cary,North Carolina,South,United States,12/13/2024
+70,Cedar Hill,Texas,Central,United States,12/13/2024
+71,Cedar Rapids,Iowa,Central,United States,12/13/2024
+72,Champaign,Illinois,Central,United States,12/13/2024
+73,Chandler,Arizona,West,United States,12/13/2024
+74,Chapel Hill,North Carolina,South,United States,12/13/2024
+75,Charlotte,North Carolina,South,United States,12/13/2024
+76,Charlottesville,Virginia,South,United States,12/13/2024
+77,Chattanooga,Tennessee,South,United States,12/13/2024
+78,Chesapeake,Virginia,South,United States,12/13/2024
+79,Chester,Pennsylvania,East,United States,12/13/2024
+80,Cheyenne,Wyoming,West,United States,12/13/2024
+81,Chicago,Illinois,Central,United States,12/13/2024
+82,Chico,California,West,United States,12/13/2024
+83,Chula Vista,California,West,United States,12/13/2024
+84,Cincinnati,Ohio,East,United States,12/13/2024
+85,Citrus Heights,California,West,United States,12/13/2024
+86,Clarksville,Tennessee,South,United States,12/13/2024
+87,Cleveland,Ohio,East,United States,12/13/2024
+88,Clifton,New Jersey,East,United States,12/13/2024
+89,Clinton,Maryland,East,United States,12/13/2024
+90,Clovis,New Mexico,West,United States,12/13/2024
+91,Coachella,California,West,United States,12/13/2024
+92,College Station,Texas,Central,United States,12/13/2024
+93,Colorado Springs,Colorado,West,United States,12/13/2024
+94,Columbia,South Carolina,South,United States,12/13/2024
+95,Columbus,Indiana,Central,United States,12/13/2024
+96,Commerce City,Colorado,West,United States,12/13/2024
+97,Concord,New Hampshire,East,United States,12/13/2024
+98,Conroe,Texas,Central,United States,12/13/2024
+99,Conway,Arkansas,South,United States,12/13/2024
+100,Coon Rapids,Minnesota,Central,United States,12/13/2024
+101,Coppell,Texas,Central,United States,12/13/2024
+102,Coral Gables,Florida,South,United States,12/13/2024
+103,Coral Springs,Florida,South,United States,12/13/2024
+104,Corpus Christi,Texas,Central,United States,12/13/2024
+105,Costa Mesa,California,West,United States,12/13/2024
+106,Cottage Grove,Minnesota,Central,United States,12/13/2024
+107,Covington,Washington,West,United States,12/13/2024
+108,Cranston,Rhode Island,East,United States,12/13/2024
+109,Cuyahoga Falls,Ohio,East,United States,12/13/2024
+110,Dallas,Texas,Central,United States,12/13/2024
+111,Danbury,Connecticut,East,United States,12/13/2024
+112,Danville,California,West,United States,12/13/2024
+113,Davis,California,West,United States,12/13/2024
+114,Daytona Beach,Florida,South,United States,12/13/2024
+115,Dearborn,Michigan,Central,United States,12/13/2024
+116,Dearborn Heights,Michigan,Central,United States,12/13/2024
+117,Decatur,Alabama,South,United States,12/13/2024
+118,Deer Park,Texas,Central,United States,12/13/2024
+119,Delray Beach,Florida,South,United States,12/13/2024
+120,Deltona,Florida,South,United States,12/13/2024
+121,Denver,Colorado,West,United States,12/13/2024
+122,Des Moines,Iowa,Central,United States,12/13/2024
+123,Des Plaines,Illinois,Central,United States,12/13/2024
+124,Detroit,Michigan,Central,United States,12/13/2024
+125,Dover,Delaware,East,United States,12/13/2024
+126,Draper,Utah,West,United States,12/13/2024
+127,Dublin,California,West,United States,12/13/2024
+128,Dubuque,Iowa,Central,United States,12/13/2024
+129,Durham,North Carolina,South,United States,12/13/2024
+130,Eagan,Minnesota,Central,United States,12/13/2024
+131,East Orange,New Jersey,East,United States,12/13/2024
+132,East Point,Georgia,South,United States,12/13/2024
+133,Eau Claire,Wisconsin,Central,United States,12/13/2024
+134,Edinburg,Texas,Central,United States,12/13/2024
+135,Edmond,Oklahoma,Central,United States,12/13/2024
+136,Edmonds,Washington,West,United States,12/13/2024
+137,El Cajon,California,West,United States,12/13/2024
+138,El Paso,Texas,Central,United States,12/13/2024
+139,Elkhart,Indiana,Central,United States,12/13/2024
+140,Elmhurst,Illinois,Central,United States,12/13/2024
+141,Elyria,Ohio,East,United States,12/13/2024
+142,Encinitas,California,West,United States,12/13/2024
+143,Englewood,Colorado,West,United States,12/13/2024
+144,Escondido,California,West,United States,12/13/2024
+145,Eugene,Oregon,West,United States,12/13/2024
+146,Evanston,Illinois,Central,United States,12/13/2024
+147,Everett,Washington,West,United States,12/13/2024
+148,Fairfield,California,West,United States,12/13/2024
+149,Fargo,North Dakota,Central,United States,12/13/2024
+150,Farmington,New Mexico,West,United States,12/13/2024
+151,Fayetteville,Arkansas,South,United States,12/13/2024
+152,Florence,Kentucky,South,United States,12/13/2024
+153,Fort Collins,Colorado,West,United States,12/13/2024
+154,Fort Lauderdale,Florida,South,United States,12/13/2024
+155,Fort Worth,Texas,Central,United States,12/13/2024
+156,Frankfort,Illinois,Central,United States,12/13/2024
+157,Franklin,Tennessee,South,United States,12/13/2024
+158,Freeport,Illinois,Central,United States,12/13/2024
+159,Fremont,Nebraska,Central,United States,12/13/2024
+160,Fresno,California,West,United States,12/13/2024
+161,Frisco,Texas,Central,United States,12/13/2024
+162,Gaithersburg,Maryland,East,United States,12/13/2024
+163,Garden City,Kansas,Central,United States,12/13/2024
+164,Garland,Texas,Central,United States,12/13/2024
+165,Gastonia,North Carolina,South,United States,12/13/2024
+166,Georgetown,Kentucky,South,United States,12/13/2024
+167,Gilbert,Arizona,West,United States,12/13/2024
+168,Gladstone,Missouri,Central,United States,12/13/2024
+169,Glendale,Arizona,West,United States,12/13/2024
+170,Glenview,Illinois,Central,United States,12/13/2024
+171,Goldsboro,North Carolina,South,United States,12/13/2024
+172,Grand Island,Nebraska,Central,United States,12/13/2024
+173,Grand Prairie,Texas,Central,United States,12/13/2024
+174,Grand Rapids,Michigan,Central,United States,12/13/2024
+175,Grapevine,Texas,Central,United States,12/13/2024
+176,Great Falls,Montana,West,United States,12/13/2024
+177,Greeley,Colorado,West,United States,12/13/2024
+178,Green Bay,Wisconsin,Central,United States,12/13/2024
+179,Greensboro,North Carolina,South,United States,12/13/2024
+180,Greenville,North Carolina,South,United States,12/13/2024
+181,Greenwood,Indiana,Central,United States,12/13/2024
+182,Gresham,Oregon,West,United States,12/13/2024
+183,Grove City,Ohio,East,United States,12/13/2024
+184,Gulfport,Mississippi,South,United States,12/13/2024
+185,Hackensack,New Jersey,East,United States,12/13/2024
+186,Hagerstown,Maryland,East,United States,12/13/2024
+187,Haltom City,Texas,Central,United States,12/13/2024
+188,Hamilton,Ohio,East,United States,12/13/2024
+189,Hampton,Virginia,South,United States,12/13/2024
+190,Harlingen,Texas,Central,United States,12/13/2024
+191,Harrisonburg,Virginia,South,United States,12/13/2024
+192,Hattiesburg,Mississippi,South,United States,12/13/2024
+193,Helena,Montana,West,United States,12/13/2024
+194,Hempstead,New York,East,United States,12/13/2024
+195,Henderson,Kentucky,South,United States,12/13/2024
+196,Hendersonville,Tennessee,South,United States,12/13/2024
+197,Hesperia,California,West,United States,12/13/2024
+198,Hialeah,Florida,South,United States,12/13/2024
+199,Hickory,North Carolina,South,United States,12/13/2024
+200,Highland Park,Illinois,Central,United States,12/13/2024
+201,Hillsboro,Oregon,West,United States,12/13/2024
+202,Holland,Michigan,Central,United States,12/13/2024
+203,Hollywood,Florida,South,United States,12/13/2024
+204,Holyoke,Massachusetts,East,United States,12/13/2024
+205,Homestead,Florida,South,United States,12/13/2024
+206,Hoover,Alabama,South,United States,12/13/2024
+207,Hot Springs,Arkansas,South,United States,12/13/2024
+208,Houston,Texas,Central,United States,12/13/2024
+209,Huntington Beach,California,West,United States,12/13/2024
+210,Huntsville,Alabama,South,United States,12/13/2024
+211,Independence,Missouri,Central,United States,12/13/2024
+212,Indianapolis,Indiana,Central,United States,12/13/2024
+213,Inglewood,California,West,United States,12/13/2024
+214,Iowa City,Iowa,Central,United States,12/13/2024
+215,Irving,Texas,Central,United States,12/13/2024
+216,Jackson,Tennessee,South,United States,12/13/2024
+217,Jacksonville,Florida,South,United States,12/13/2024
+218,Jamestown,New York,East,United States,12/13/2024
+219,Jefferson City,Missouri,Central,United States,12/13/2024
+220,Johnson City,Tennessee,South,United States,12/13/2024
+221,Jonesboro,Arkansas,South,United States,12/13/2024
+222,Jupiter,Florida,South,United States,12/13/2024
+223,Keller,Texas,Central,United States,12/13/2024
+224,Kenner,Louisiana,South,United States,12/13/2024
+225,Kenosha,Wisconsin,Central,United States,12/13/2024
+226,Kent,Washington,West,United States,12/13/2024
+227,Kirkwood,Missouri,Central,United States,12/13/2024
+228,Kissimmee,Florida,South,United States,12/13/2024
+229,Knoxville,Tennessee,South,United States,12/13/2024
+230,La Crosse,Wisconsin,Central,United States,12/13/2024
+231,La Mesa,California,West,United States,12/13/2024
+232,La Porte,Indiana,Central,United States,12/13/2024
+233,La Quinta,California,West,United States,12/13/2024
+234,Lafayette,Louisiana,South,United States,12/13/2024
+235,Laguna Niguel,California,West,United States,12/13/2024
+236,Lake Charles,Louisiana,South,United States,12/13/2024
+237,Lake Elsinore,California,West,United States,12/13/2024
+238,Lake Forest,California,West,United States,12/13/2024
+239,Lakeland,Florida,South,United States,12/13/2024
+240,Lakeville,Minnesota,Central,United States,12/13/2024
+241,Lakewood,Ohio,East,United States,12/13/2024
+242,Lancaster,Pennsylvania,East,United States,12/13/2024
+243,Lansing,Michigan,Central,United States,12/13/2024
+244,Laredo,Texas,Central,United States,12/13/2024
+245,Las Cruces,New Mexico,West,United States,12/13/2024
+246,Las Vegas,Nevada,West,United States,12/13/2024
+247,Laurel,Maryland,East,United States,12/13/2024
+248,Lawrence,Massachusetts,East,United States,12/13/2024
+249,Lawton,Oklahoma,Central,United States,12/13/2024
+250,Layton,Utah,West,United States,12/13/2024
+251,League City,Texas,Central,United States,12/13/2024
+252,Lebanon,Tennessee,South,United States,12/13/2024
+253,Lehi,Utah,West,United States,12/13/2024
+254,Leominster,Massachusetts,East,United States,12/13/2024
+255,Lewiston,Maine,East,United States,12/13/2024
+256,Lincoln Park,Michigan,Central,United States,12/13/2024
+257,Linden,New Jersey,East,United States,12/13/2024
+258,Lindenhurst,New York,East,United States,12/13/2024
+259,Little Rock,Arkansas,South,United States,12/13/2024
+260,Littleton,Colorado,West,United States,12/13/2024
+261,Lodi,California,West,United States,12/13/2024
+262,Logan,Utah,West,United States,12/13/2024
+263,Long Beach,California,West,United States,12/13/2024
+264,Longmont,Colorado,West,United States,12/13/2024
+265,Longview,Washington,West,United States,12/13/2024
+266,Lorain,Ohio,East,United States,12/13/2024
+267,Los Angeles,California,West,United States,12/13/2024
+268,Louisville,Kentucky,South,United States,12/13/2024
+269,Loveland,Colorado,West,United States,12/13/2024
+270,Lowell,Massachusetts,East,United States,12/13/2024
+271,Lubbock,Texas,Central,United States,12/13/2024
+272,Macon,Georgia,South,United States,12/13/2024
+273,Madison,Wisconsin,Central,United States,12/13/2024
+274,Malden,Massachusetts,East,United States,12/13/2024
+275,Manchester,Connecticut,East,United States,12/13/2024
+276,Manhattan,Kansas,Central,United States,12/13/2024
+277,Mansfield,Texas,Central,United States,12/13/2024
+278,Manteca,California,West,United States,12/13/2024
+279,Maple Grove,Minnesota,Central,United States,12/13/2024
+280,Margate,Florida,South,United States,12/13/2024
+281,Marietta,Georgia,South,United States,12/13/2024
+282,Marion,Ohio,East,United States,12/13/2024
+283,Marlborough,Massachusetts,East,United States,12/13/2024
+284,Marysville,Washington,West,United States,12/13/2024
+285,Mason,Ohio,East,United States,12/13/2024
+286,Mcallen,Texas,Central,United States,12/13/2024
+287,Medford,Oregon,West,United States,12/13/2024
+288,Medina,Ohio,East,United States,12/13/2024
+289,Melbourne,Florida,South,United States,12/13/2024
+290,Memphis,Tennessee,South,United States,12/13/2024
+291,Mentor,Ohio,East,United States,12/13/2024
+292,Meriden,Connecticut,East,United States,12/13/2024
+293,Meridian,Idaho,West,United States,12/13/2024
+294,Mesa,Arizona,West,United States,12/13/2024
+295,Mesquite,Texas,Central,United States,12/13/2024
+296,Miami,Florida,South,United States,12/13/2024
+297,Middletown,Connecticut,East,United States,12/13/2024
+298,Midland,Michigan,Central,United States,12/13/2024
+299,Milford,Connecticut,East,United States,12/13/2024
+300,Milwaukee,Wisconsin,Central,United States,12/13/2024
+301,Minneapolis,Minnesota,Central,United States,12/13/2024
+302,Miramar,Florida,South,United States,12/13/2024
+303,Mishawaka,Indiana,Central,United States,12/13/2024
+304,Mission Viejo,California,West,United States,12/13/2024
+305,Missoula,Montana,West,United States,12/13/2024
+306,Missouri City,Texas,Central,United States,12/13/2024
+307,Mobile,Alabama,South,United States,12/13/2024
+308,Modesto,California,West,United States,12/13/2024
+309,Monroe,North Carolina,South,United States,12/13/2024
+310,Montebello,California,West,United States,12/13/2024
+311,Montgomery,Alabama,South,United States,12/13/2024
+312,Moorhead,Minnesota,Central,United States,12/13/2024
+313,Moreno Valley,California,West,United States,12/13/2024
+314,Morgan Hill,California,West,United States,12/13/2024
+315,Morristown,New Jersey,East,United States,12/13/2024
+316,Mount Pleasant,Michigan,Central,United States,12/13/2024
+317,Mount Vernon,New York,East,United States,12/13/2024
+318,Murfreesboro,Tennessee,South,United States,12/13/2024
+319,Murray,Utah,West,United States,12/13/2024
+320,Murrieta,California,West,United States,12/13/2024
+321,Muskogee,Oklahoma,Central,United States,12/13/2024
+322,Naperville,Illinois,Central,United States,12/13/2024
+323,Nashua,New Hampshire,East,United States,12/13/2024
+324,Nashville,Tennessee,South,United States,12/13/2024
+325,New Albany,Indiana,Central,United States,12/13/2024
+326,New Bedford,Massachusetts,East,United States,12/13/2024
+327,New Brunswick,New Jersey,East,United States,12/13/2024
+328,New Castle,Indiana,Central,United States,12/13/2024
+329,New Rochelle,New York,East,United States,12/13/2024
+330,New York City,New York,East,United States,12/13/2024
+331,Newark,Ohio,East,United States,12/13/2024
+332,Newport News,Virginia,South,United States,12/13/2024
+333,Niagara Falls,New York,East,United States,12/13/2024
+334,Noblesville,Indiana,Central,United States,12/13/2024
+335,Norfolk,Nebraska,Central,United States,12/13/2024
+336,Normal,Illinois,Central,United States,12/13/2024
+337,Norman,Oklahoma,Central,United States,12/13/2024
+338,North Charleston,South Carolina,South,United States,12/13/2024
+339,North Las Vegas,Nevada,West,United States,12/13/2024
+340,North Miami,Florida,South,United States,12/13/2024
+341,Norwich,Connecticut,East,United States,12/13/2024
+342,Oak Park,Illinois,Central,United States,12/13/2024
+343,Oakland,California,West,United States,12/13/2024
+344,Oceanside,New York,East,United States,12/13/2024
+345,Odessa,Texas,Central,United States,12/13/2024
+346,Oklahoma City,Oklahoma,Central,United States,12/13/2024
+347,Olathe,Kansas,Central,United States,12/13/2024
+348,Olympia,Washington,West,United States,12/13/2024
+349,Omaha,Nebraska,Central,United States,12/13/2024
+350,Ontario,California,West,United States,12/13/2024
+351,Orange,New Jersey,East,United States,12/13/2024
+352,Orem,Utah,West,United States,12/13/2024
+353,Orland Park,Illinois,Central,United States,12/13/2024
+354,Orlando,Florida,South,United States,12/13/2024
+355,Ormond Beach,Florida,South,United States,12/13/2024
+356,Oswego,Illinois,Central,United States,12/13/2024
+357,Overland Park,Kansas,Central,United States,12/13/2024
+358,Owensboro,Kentucky,South,United States,12/13/2024
+359,Oxnard,California,West,United States,12/13/2024
+360,Palatine,Illinois,Central,United States,12/13/2024
+361,Palm Coast,Florida,South,United States,12/13/2024
+362,Park Ridge,Illinois,Central,United States,12/13/2024
+363,Parker,Colorado,West,United States,12/13/2024
+364,Parma,Ohio,East,United States,12/13/2024
+365,Pasadena,California,West,United States,12/13/2024
+366,Pasco,Washington,West,United States,12/13/2024
+367,Passaic,New Jersey,East,United States,12/13/2024
+368,Paterson,New Jersey,East,United States,12/13/2024
+369,Pearland,Texas,Central,United States,12/13/2024
+370,Pembroke Pines,Florida,South,United States,12/13/2024
+371,Pensacola,Florida,South,United States,12/13/2024
+372,Peoria,Illinois,Central,United States,12/13/2024
+373,Perth Amboy,New Jersey,East,United States,12/13/2024
+374,Pharr,Texas,Central,United States,12/13/2024
+375,Philadelphia,Pennsylvania,East,United States,12/13/2024
+376,Phoenix,Arizona,West,United States,12/13/2024
+377,Pico Rivera,California,West,United States,12/13/2024
+378,Pine Bluff,Arkansas,South,United States,12/13/2024
+379,Plainfield,New Jersey,East,United States,12/13/2024
+380,Plano,Texas,Central,United States,12/13/2024
+381,Plantation,Florida,South,United States,12/13/2024
+382,Pleasant Grove,Utah,West,United States,12/13/2024
+383,Pocatello,Idaho,West,United States,12/13/2024
+384,Pomona,California,West,United States,12/13/2024
+385,Pompano Beach,Florida,South,United States,12/13/2024
+386,Port Arthur,Texas,Central,United States,12/13/2024
+387,Port Orange,Florida,South,United States,12/13/2024
+388,Port Saint Lucie,Florida,South,United States,12/13/2024
+389,Portage,Indiana,Central,United States,12/13/2024
+390,Portland,Oregon,West,United States,12/13/2024
+391,Providence,Rhode Island,East,United States,12/13/2024
+392,Provo,Utah,West,United States,12/13/2024
+393,Pueblo,Colorado,West,United States,12/13/2024
+394,Quincy,Illinois,Central,United States,12/13/2024
+395,Raleigh,North Carolina,South,United States,12/13/2024
+396,Rancho Cucamonga,California,West,United States,12/13/2024
+397,Rapid City,South Dakota,Central,United States,12/13/2024
+398,Reading,Pennsylvania,East,United States,12/13/2024
+399,Redding,California,West,United States,12/13/2024
+400,Redlands,California,West,United States,12/13/2024
+401,Redmond,Oregon,West,United States,12/13/2024
+402,Redondo Beach,California,West,United States,12/13/2024
+403,Redwood City,California,West,United States,12/13/2024
+404,Reno,Nevada,West,United States,12/13/2024
+405,Renton,Washington,West,United States,12/13/2024
+406,Revere,Massachusetts,East,United States,12/13/2024
+407,Richardson,Texas,Central,United States,12/13/2024
+408,Richmond,Kentucky,South,United States,12/13/2024
+409,Rio Rancho,New Mexico,West,United States,12/13/2024
+410,Riverside,California,West,United States,12/13/2024
+411,Rochester,New York,East,United States,12/13/2024
+412,Rochester Hills,Michigan,Central,United States,12/13/2024
+413,Rock Hill,South Carolina,South,United States,12/13/2024
+414,Rockford,Illinois,Central,United States,12/13/2024
+415,Rockville,Maryland,East,United States,12/13/2024
+416,Rogers,Arkansas,South,United States,12/13/2024
+417,Rome,New York,East,United States,12/13/2024
+418,Romeoville,Illinois,Central,United States,12/13/2024
+419,Roseville,Michigan,Central,United States,12/13/2024
+420,Roswell,Georgia,South,United States,12/13/2024
+421,Round Rock,Texas,Central,United States,12/13/2024
+422,Royal Oak,Michigan,Central,United States,12/13/2024
+423,Sacramento,California,West,United States,12/13/2024
+424,Saginaw,Michigan,Central,United States,12/13/2024
+425,Saint Charles,Missouri,Central,United States,12/13/2024
+426,Saint Cloud,Minnesota,Central,United States,12/13/2024
+427,Saint Louis,Missouri,Central,United States,12/13/2024
+428,Saint Paul,Minnesota,Central,United States,12/13/2024
+429,Saint Peters,Missouri,Central,United States,12/13/2024
+430,Saint Petersburg,Florida,South,United States,12/13/2024
+431,Salem,Virginia,South,United States,12/13/2024
+432,Salinas,California,West,United States,12/13/2024
+433,Salt Lake City,Utah,West,United States,12/13/2024
+434,San Angelo,Texas,Central,United States,12/13/2024
+435,San Antonio,Texas,Central,United States,12/13/2024
+436,San Bernardino,California,West,United States,12/13/2024
+437,San Clemente,California,West,United States,12/13/2024
+438,San Diego,California,West,United States,12/13/2024
+439,San Francisco,California,West,United States,12/13/2024
+440,San Gabriel,California,West,United States,12/13/2024
+441,San Jose,California,West,United States,12/13/2024
+442,San Luis Obispo,California,West,United States,12/13/2024
+443,San Marcos,Texas,Central,United States,12/13/2024
+444,San Mateo,California,West,United States,12/13/2024
+445,Sandy Springs,Georgia,South,United States,12/13/2024
+446,Sanford,Florida,South,United States,12/13/2024
+447,Santa Ana,California,West,United States,12/13/2024
+448,Santa Barbara,California,West,United States,12/13/2024
+449,Santa Clara,California,West,United States,12/13/2024
+450,Santa Fe,New Mexico,West,United States,12/13/2024
+451,Santa Maria,California,West,United States,12/13/2024
+452,Scottsdale,Arizona,West,United States,12/13/2024
+453,Seattle,Washington,West,United States,12/13/2024
+454,Sheboygan,Wisconsin,Central,United States,12/13/2024
+455,Shelton,Connecticut,East,United States,12/13/2024
+456,Sierra Vista,Arizona,West,United States,12/13/2024
+457,Sioux Falls,South Dakota,Central,United States,12/13/2024
+458,Skokie,Illinois,Central,United States,12/13/2024
+459,Smyrna,Georgia,South,United States,12/13/2024
+460,South Bend,Indiana,Central,United States,12/13/2024
+461,Southaven,Mississippi,South,United States,12/13/2024
+462,Sparks,Nevada,West,United States,12/13/2024
+463,Spokane,Washington,West,United States,12/13/2024
+464,Springdale,Arkansas,South,United States,12/13/2024
+465,Springfield,Virginia,South,United States,12/13/2024
+466,Sterling Heights,Michigan,Central,United States,12/13/2024
+467,Stockton,California,West,United States,12/13/2024
+468,Suffolk,Virginia,South,United States,12/13/2024
+469,Summerville,South Carolina,South,United States,12/13/2024
+470,Sunnyvale,California,West,United States,12/13/2024
+471,Superior,Wisconsin,Central,United States,12/13/2024
+472,Tallahassee,Florida,South,United States,12/13/2024
+473,Tamarac,Florida,South,United States,12/13/2024
+474,Tampa,Florida,South,United States,12/13/2024
+475,Taylor,Michigan,Central,United States,12/13/2024
+476,Temecula,California,West,United States,12/13/2024
+477,Tempe,Arizona,West,United States,12/13/2024
+478,Texarkana,Arkansas,South,United States,12/13/2024
+479,Texas City,Texas,Central,United States,12/13/2024
+480,The Colony,Texas,Central,United States,12/13/2024
+481,Thomasville,North Carolina,South,United States,12/13/2024
+482,Thornton,Colorado,West,United States,12/13/2024
+483,Thousand Oaks,California,West,United States,12/13/2024
+484,Tigard,Oregon,West,United States,12/13/2024
+485,Tinley Park,Illinois,Central,United States,12/13/2024
+486,Toledo,Ohio,East,United States,12/13/2024
+487,Torrance,California,West,United States,12/13/2024
+488,Trenton,Michigan,Central,United States,12/13/2024
+489,Troy,New York,East,United States,12/13/2024
+490,Tucson,Arizona,West,United States,12/13/2024
+491,Tulsa,Oklahoma,Central,United States,12/13/2024
+492,Tuscaloosa,Alabama,South,United States,12/13/2024
+493,Twin Falls,Idaho,West,United States,12/13/2024
+494,Tyler,Texas,Central,United States,12/13/2024
+495,Urbandale,Iowa,Central,United States,12/13/2024
+496,Utica,New York,East,United States,12/13/2024
+497,Vacaville,California,West,United States,12/13/2024
+498,Vallejo,California,West,United States,12/13/2024
+499,Vancouver,Washington,West,United States,12/13/2024
+500,Vineland,New Jersey,East,United States,12/13/2024
+501,Virginia Beach,Virginia,South,United States,12/13/2024
+502,Visalia,California,West,United States,12/13/2024
+503,Waco,Texas,Central,United States,12/13/2024
+504,Warner Robins,Georgia,South,United States,12/13/2024
+505,Warwick,Rhode Island,East,United States,12/13/2024
+506,Washington,District of Columbia,East,United States,12/13/2024
+507,Waterbury,Connecticut,East,United States,12/13/2024
+508,Waterloo,Iowa,Central,United States,12/13/2024
+509,Watertown,New York,East,United States,12/13/2024
+510,Waukesha,Wisconsin,Central,United States,12/13/2024
+511,Wausau,Wisconsin,Central,United States,12/13/2024
+512,Waynesboro,Virginia,South,United States,12/13/2024
+513,West Allis,Wisconsin,Central,United States,12/13/2024
+514,West Jordan,Utah,West,United States,12/13/2024
+515,West Palm Beach,Florida,South,United States,12/13/2024
+516,Westfield,New Jersey,East,United States,12/13/2024
+517,Westland,Michigan,Central,United States,12/13/2024
+518,Westminster,California,West,United States,12/13/2024
+519,Wheeling,West Virginia,East,United States,12/13/2024
+520,Whittier,California,West,United States,12/13/2024
+521,Wichita,Kansas,Central,United States,12/13/2024
+522,Wilmington,North Carolina,South,United States,12/13/2024
+523,Wilson,North Carolina,South,United States,12/13/2024
+524,Woodbury,Minnesota,Central,United States,12/13/2024
+525,Woodland,California,West,United States,12/13/2024
+526,Woodstock,Illinois,Central,United States,12/13/2024
+527,Woonsocket,Rhode Island,East,United States,12/13/2024
+528,Yonkers,New York,East,United States,12/13/2024
+529,York,Pennsylvania,East,United States,12/13/2024
+530,Yucaipa,California,West,United States,12/13/2024
+531,Yuma,Arizona,West,United States,12/13/2024
